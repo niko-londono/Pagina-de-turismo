@@ -1,0 +1,233 @@
+body
+{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-image: radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));
+}
+
+p
+{
+    color: #495057;
+}
+
+.links
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #343a40;
+    margin-left: -100px;
+}
+
+.links:hover
+{
+    color: #ffa200;
+}
+
+hr
+{
+    border-style: dotted none none;
+    height: 0px;
+    border-color: #e9ecef;
+    border-width: 5px;
+    width: 10%;
+    margin: 7% auto 7%;
+}
+
+article,.parrafoIzquierda
+{
+    padding-right: 20px;
+    padding-top: 60px;
+    text-justify: auto;
+}
+article,.parrafoDerecha
+{
+    padding-left: 20px;
+    padding-top: 60px;
+    text-justify:newspaper;
+}
+article,.tituloIzquierda
+{
+    position: absolute;
+    left: 20%;
+}
+article,.tituloDerecha
+{
+    position: absolute;
+    right: 20%;
+}
+
+article
+{
+    display: flex;
+    width: 40%;
+    text-align: left;
+    position: absolute;
+    left: 30%;
+    padding: 20px;
+    /* background-color: #ced4da; */
+}
+
+section
+{
+    padding-top: 100px;
+}
+
+.articuloArriba
+{
+    width: 65%;
+}
+
+.articuloAbajo
+{
+    padding-top: 400px;
+    width: 65%;
+
+}
+.articuloAbajo2
+{
+    padding-top: 800px;
+    width: 65%;
+}
+
+.izquierda
+{
+    width: 35%;
+    height: 400px;
+    float: left;
+}
+
+.Titulo
+{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.logo
+{
+    width: 200px;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+    border-radius: 5%;
+}
+
+.divlogo
+{
+    text-align: left;
+    display: flex;
+}
+
+.cabeza
+{
+    background: rgb(239,190,106);
+    background: linear-gradient(75deg, rgb(239, 215, 106) 0%, rgb(186, 160, 16) 36%, rgb(40, 39, 35) 100%);
+    padding: 8px;
+}
+
+.juego1
+{
+    border-radius: 2%;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.3));
+}
+
+.bottom
+{
+    padding: 10px 0;
+    background-color: #adb5bd;
+    margin-top: 600px;
+}
+
+.bottom p
+{
+    display: inline-block;
+    left: 0%;
+}
+
+.bottom table
+{
+    display: inline-block;
+    background-color: #e9ecef;
+    padding: 10px;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.3));
+    margin-left: 75%;
+}
+
+/* Formulario */
+.Formulario2
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Form-register
+{
+    width: 55%;
+    background: #24303c;
+    padding: 20px 60px 10px 40px;
+    margin: auto;
+    border-radius: 4%;
+    font-family: 'calibri';
+    color: antiquewhite;
+    box-shadow: 7px 13px 37px #000;
+    margin-left: 2%;
+}
+
+.Form-register h3
+{
+    color: antiquewhite;
+}
+
+.controls
+{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.Form-register a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Form-register a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.Form-register p
+{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.Form-register .botons
+{
+    width: 35%;
+    background: #1f53c5;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.Form-register .botons:hover
+{
+    background: rgb(239,190,106);
+    background: linear-gradient(75deg, rgba(239,190,106,1) 0%, rgba(186,113,16,1) 36%, rgba(40,38,35,1) 100%);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* Formulario */
